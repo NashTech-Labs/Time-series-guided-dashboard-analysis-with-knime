@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">knoldus</met:element>
+<met:element form="date" read-only="false" name="Creation Date">13/6/2020/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">Time series guided analysis
+
+In this workflow we have taken grocery dataset for 10 stores contains data for 50 different items. This workflow can be deployed for a guided analytics webportal, i.e. easy to use dashborad for time series inspecction and forecasting.
+
+Steps:
+
+* Data preparation: data loading, data exploration, data imputation
+
+* Selecting parameters and filtering data: selcting particular store, item , setting parameters for weekly/monthly stats visualizations
+
+* data visualizations: data inspection , weekly/monthly sales
+
+* seasonality inspection: seasionality inspection, seasonality removing, lag preparation
+
+* model training  and evaluation: traing model on time series data, matics evaluation, line plot for performance
+
+
+TAGS: sales forecasting,forecasting,guided analytics,dashborad,store data,linear regression,knime</met:element>
+</met:KNIMEMetaInfo>
